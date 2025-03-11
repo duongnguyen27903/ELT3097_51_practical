@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.practical
 
 fun main(){
     //2. Thông báo qua thiết bị di động
@@ -103,7 +103,6 @@ class Person(
         } else {
             print("Doesn't have a referrer.")
         }
-
     }
 }
 
