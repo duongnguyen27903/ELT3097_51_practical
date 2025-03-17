@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.Window
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.example.myapplication.practical.RollDiceApp
+import com.example.myapplication.practical.Lemonade
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
 
@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         setContent {
             MyApplicationTheme {
-                RollDiceApp()
+                Lemonade()
             }
         }
     }
