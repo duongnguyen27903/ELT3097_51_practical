@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import AffirmationsApp
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.Window
@@ -17,7 +18,7 @@ class MainActivity : ComponentActivity() {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         setContent {
             MyApplicationTheme {
-                ArtSpace()
+                AffirmationsApp()
             }
         }
     }
