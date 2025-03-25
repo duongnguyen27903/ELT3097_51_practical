@@ -6,3 +6,9 @@ data class Affirmation(
     @StringRes val stringResourceId: Int,
     @DrawableRes val imageResourceId: Int
 )
+
+data class JobTopic(
+    @StringRes val stringResourceId: Int,
+    val count : Int,
+    @DrawableRes val imageResourceId: Int
+)

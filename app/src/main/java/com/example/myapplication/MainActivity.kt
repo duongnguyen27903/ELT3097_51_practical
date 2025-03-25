@@ -8,6 +8,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.example.myapplication.practical.ArtSpace
 import com.example.myapplication.practical.CalculateTip
+import com.example.myapplication.practical.JobTopic
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
 
@@ -18,7 +19,7 @@ class MainActivity : ComponentActivity() {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         setContent {
             MyApplicationTheme {
-                AffirmationsApp()
+                JobTopic()
             }
         }
     }
