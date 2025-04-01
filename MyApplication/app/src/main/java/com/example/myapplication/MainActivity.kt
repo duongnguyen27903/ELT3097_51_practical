@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         setContent {
             MyApplicationTheme {
-                JobTopic()
+
             }
         }
     }
